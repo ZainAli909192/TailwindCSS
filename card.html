@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        zain:'red',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body  class="bg-zain">
+
+    <div class="main sm:flex justify-evenly" >
+
+    <img src="./img/cross.png"    alt="" class="h-10 
+    rounded-full w-10 m-2 right inline">  
+
+
+    <img src="./img/hamburger.png"
+alt="" class="h-10 rounded-full w-10 m-2 sm:hidden inline ">
+    <nav class="">
+        <ul 
+        class="max-w-sm  h-screen block sm:flex sm:h-6 hidden text-white cursor-pointer 
+        
+        ">
+            <li class="mt-5 pl-9 "><a href="" class="">Home</a></li>
+            <li class="mt-5 pl-9"><a href="">About</a></li>
+            <li class="mt-5 pl-9"><a href="">Service</a></li>
+            <li class="mt-5 pl-9"><a href="">Contact us</a></li>
+        </ul>
+    </nav>
+
+
+</div>
+
+    
+    <!-- tailwind other practice -->
+    
+    <!-- 
+    <div
+     class="bg-white 
+     p-8
+      text-center
+       text-justify 
+       tracking-widest
+        leading-10
+         max-w-full 
+         sm:bg-red-400 sm:text-white
+         bg-gradient-to-b  from-white to-blue-500
+         lg:bg-none
+         "
+     >
+     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis cupiditate qui eligendi sit! Placeat cupiditate ducimus maxime, minus perferendis architecto.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, quidem.
+        <img src=""  alt="">
+    </div> -->
+</body>
+</html>
